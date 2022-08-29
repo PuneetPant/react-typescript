@@ -1,6 +1,8 @@
 import "./App.css";
+import { Button } from "./components/ButtonClickEvent";
 import { Greet } from "./components/Greet";
 import { Heading } from "./components/HeadingChildren";
+import { Input } from "./components/InputChangeEvent";
 import { Oscar } from "./components/OscarComponent";
 import { PersonList } from "./components/PersonListArrayOfObjects";
 import { Person } from "./components/PersonObject";
@@ -18,6 +20,16 @@ function App() {
       <Oscar>
         <Heading>SuperHero Movie</Heading>
       </Oscar>
+      <Button
+        handleClick={(event, id) => {
+          console.log("clicked", event, id);
+        }}
+      />
+      <Input
+        handleChange={(event) => {
+          console.log(event.target.value);
+        }}
+      />
     </div>
   );
 }
