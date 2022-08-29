@@ -1,18 +1,18 @@
 export const name = {
-  first: 'Bruce',
-  last: 'Wayne'
-}
+  first: "Bruce",
+  last: "Wayne",
+};
 export const personList = [
   {
-    first: 'Clark',
-    last: 'Kent'
+    first: "Clark",
+    last: "Kent",
   },
   {
-    first: 'Peter',
-    last: 'Pan'
+    first: "Peter",
+    last: "Pan",
   },
   {
-    first: 'Robin',
-    last: 'Hood'
-  }
-]
+    first: "Robin",
+    last: "Hood",
+  },
+];

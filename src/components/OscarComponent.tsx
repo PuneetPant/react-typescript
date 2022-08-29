@@ -1,10 +1,6 @@
 type OscarProps = {
-  children : React.ReactNode
-}
+  children: React.ReactNode;
+};
 export const Oscar = (props: OscarProps) => {
-  return (
-    <div>
-      {props.children}
-    </div>
-  )
-}
+  return <div>{props.children}</div>;
+};
